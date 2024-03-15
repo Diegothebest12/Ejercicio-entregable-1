@@ -1,0 +1,192 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+    width: 100%;
+}
+
+.Deportes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 15px;
+    list-style: none;
+}
+
+.enlace {
+    border-right: 1px solid black;
+    padding-right: 25px;
+}
+
+.cuadrado {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 11%;
+    background-color: pink;
+    border-style: solid;
+    border-color: black;
+    left: 80%;
+    top: 85%;
+    text-align: center;
+}
+
+.cuadrado ul {
+    margin: 2;
+    padding: 3;
+    list-style-type: none;
+}
+
+p {
+    text-align: center;
+}
+
+.centrado {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.primera {
+    width: 50%;
+}
+
+.segunda {
+    float: right;
+    width: 50%;
+}
+
+.imagenes {
+    width: 100%;
+}
+
+#imagen {
+    width: 100%;
+}
+
+#menu, #mas_artes, .pc {
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    h1 {
+        top: 0;
+        margin: 0;
+        padding: 0;
+        background-color: pink;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .Deportes {
+        list-style: none;
+        border: 2px solid black;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .lista, .derecha1, .pc {
+        border: 1px solid black;
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    
+    .enlaces {
+        text-align: center;
+    }
+    
+    ul li {
+        margin-bottom: 15px;
+    }
+    
+    .lista {
+        width: 28%; 
+        float: left;
+        height: 120vh;
+    }
+    
+    .derecha1 {
+        width: 70%;
+        float: right;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 70vh;
+    }
+    
+    .pc {
+        width: 70%;
+        float: right;
+        height: 37.6vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    #imagen, .imagenes {
+        height: 40%;
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .primera, .segunda, .tercera {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 7%;
+        width: 50%;
+    }
+    
+    .p {
+        width: 40%;
+        text-align: center;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    h3 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #mas_artes {
+        text-align: center;
+    }
+    
+    .pc {
+        width: 70%;
+        height: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .cuadrado {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        width: 6%;
+        background-color: pink;
+        border-style: solid;
+        border-color: black;
+        left: 20%;
+        top: 85%;
+        text-align: center;
+    }
+    
+    button {
+        background-color: pink;
+        border: black solid 1px;
+        padding: 15px 32px;
+        text-align: center;
+        font-size: 18px;
+    }
+}
+/*Me sale más o menos en el ordenador, llevo unas horas intentandolo y me es imposible solucionarlo*/
